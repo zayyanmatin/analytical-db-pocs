@@ -22,21 +22,22 @@ In addition to better analytical performance, we would look to choose databases 
  A new age of databases are out there geared towards real time analytics and this project serves to provide a benchmark and report on those, namely Starrocks, Clickhouse and Pinot. These databases leverage a Massive Parallel Processing architecture, whereby compute can be split across many nodes and communicate with each other to speed up query and execution times. Another feature is they use columnar stores instead of rows. This way only columns that are queried will be processed as opposed to entire records. This largely favours analytical workloads, where an entire row is not usually required, meaning there is less to process and better performance.
 
  ## Database Overviews
-
- [Overviews of each database and approach on how we POC'd can be found here](./docs)
+ > [!NOTE]
+ > [Overviews of each database and on how we POC'd can be found here](./docs)
 
 ### Data Generation :gear:
 Data ranging from ```2024/02/01 00:00``` to ```2024/03/01 00:00``` is generated in each DB to mock the content within our minute and hourly tables.
 
 Table are generated the same way across the databases with sizes:
-
+```
 metrics - 12,960,000  rows
 
 hourly_metrics - 216, 000 rows
 
 linear_events - 14,034,599   rows
 
-hourly_metrics - 326,000 rows 
+hourly_metrics - 326,000 rows
+```
 
 
 

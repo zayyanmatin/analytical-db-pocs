@@ -18,7 +18,7 @@ In addition to better analytical performance, we would look to choose databases 
 - Backup & Recovery
 - Support
 
-### So Why Real Time OLAP?
+### Purpose
  A new age of databases are out there geared towards real time analytics and this project serves to provide a benchmark and report on those, namely Starrocks, Clickhouse and Pinot. These databases leverage a Massive Parallel Processing architecture, whereby compute can be split across many nodes and communicate with each other to speed up query and execution times. Another feature is they use columnar stores instead of rows. This way only columns that are queried will be processed as opposed to entire records. This largely favours analytical workloads, where an entire row is not usually required, meaning there is less to process and better performance.
 
  ## Database Overviews

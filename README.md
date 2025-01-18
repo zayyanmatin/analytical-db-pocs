@@ -1,4 +1,4 @@
-# realtime-olap-db-pocs
+# analytical-db-pocs
 
 Analysis  on potential real-time OLAP DB alternatives
 ## Context

@@ -23,7 +23,9 @@ In addition to better analytical performance, we would look to choose databases 
 
  ## Database Overviews
  > [!NOTE]
- > [Analysis of each database and on how we POC'd can be found here](./docs)
+ > [Analysis of Pinot's architecture can be found here](./docs/pinot.md)
+> 
+ > [Analysis of Starrocks's architecture can be found here](./docs/starrocks.md)
 
 ### Data Generation :gear:
 Data ranging from ```2024/02/01 00:00``` to ```2024/03/01 00:00``` is generated in each DB to mock the content within our minute and hourly tables.
